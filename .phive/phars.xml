@@ -2,4 +2,5 @@
 <phive xmlns="https://phar.io/phive">
   <phar name="php-cs-fixer" version="^3.13.0" installed="3.13.1" location="./tools/php-cs-fixer" copy="true"/>
   <phar name="phpstan" version="^1.9.14" installed="1.9.14" location="./tools/phpstan" copy="true"/>
+  <phar name="composer" version="^2.5.1" installed="2.5.1" location="./tools/composer" copy="true"/>
 </phive>
