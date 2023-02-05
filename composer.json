@@ -28,6 +28,17 @@
         },
         "sort-packages": true
     },
+    "archive": {
+        "exclude": [
+            ".github/",
+            ".phive/",
+            ".var/",
+            "tools/",
+            ".php-cs-fixer.dist.php",
+            "phpstan.neon",
+            ".editorconfig"
+        ]
+    },
     "scripts": {
         "phpstan": "tools/phpstan",
         "php-cs-fixer": "tools/php-cs-fixer",
