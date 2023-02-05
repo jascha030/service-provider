@@ -1,12 +1,8 @@
-# IDE Projectfiles
-.idea/
-.vscode/
-
 # Dynamic
 .var/cache/php-cs-fixer/*
 !.var/cache/php-cs-fixer/.gitkeep
 
-# Library
+# Dependencies
 vendor/
 tools/
 
@@ -14,9 +10,12 @@ tools/
 .env
 .pm.toml
 
+# IDE Projectfiles
+.idea/
+.vscode/
+
 # Other
 *.DS_Store
 .DS_Store
 *.sql
 TODO.md
-
