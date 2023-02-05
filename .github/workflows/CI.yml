@@ -41,4 +41,4 @@ jobs:
       - name: Install dependencies with Composer
         run: ./tools/composer update --no-interaction --no-ansi --no-progress
       - name: Analyze with PHPStan
-        run: ./vendor-bin/phpstan/vendor/bin/phpstan analyze -c phpstan.neon
+        run: ./tools/composer run analyze
